@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>WhatsThisFish</title>
+        <link rel='stylesheet' type='text/css' href='fish.css'>
+		<script src='fish.js' type='text/javascript'></script>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+        <style>
+		#map {
+			height: 400px;
+			width: 80%;
+		}
+        </style>
+    </head>
+    <body>
+    	<h1><img src='drivingthattrainhighoncocaine.svg' id='logo'><span id='title'>What's This Fish?</span></h1>
+        <div id='map'>
+        </div>
+        <script>
+				function initMap() {
+					var map = new google.maps.Map(document.getElementById('map'), {
+						center: {lat: 0, lng: 0},
+						scrollwheel: false,
+						zoom: 2
+					});
+				}
+				
+			</script>
+    		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcHE7sZT2HosrnzgJ7Ui5G6ecmO5usQtQ&callback=initMap" async defer></script>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+html{
+	background: #000000;
+	color: #ffffff;
+}
+h1 {
+	font-family: 'Alegreya', serif;
+}
+#logo {
+	width: 10px;
+}

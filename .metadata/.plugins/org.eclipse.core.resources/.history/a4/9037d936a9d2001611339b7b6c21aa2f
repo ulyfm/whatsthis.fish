@@ -1,0 +1,24 @@
+html{
+	background: #ffffff;
+	color: #2c3e50;
+	font-family: 'Alegreya', serif;
+}
+#logo {
+	width: 30px;
+	display: inline;
+}
+.c1 {
+	text-decoration: none;
+	background: #e74c3c;
+	color: #ffffff;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid #c0392b;
+	border-radius: 5px;
+	display: block;
+	width: 30%;
+	text-align: center;
+}
+.c1:active {
+	
+}

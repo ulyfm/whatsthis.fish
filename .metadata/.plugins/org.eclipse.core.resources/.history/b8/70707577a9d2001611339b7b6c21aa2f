@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WhatsThisFish</title>
+		<link rel='stylesheet' type='text/css' href='fish.css'>
+		<script src='fish.js' type='text/javascript'></script>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+	</head>
+	<body>
+		<h1><span id='title'><img src='drivingthattrainhighoncocaine.svg' id='logo'>What's This Fish?</h1>
+		<a href='/havefish.html' class='c1'>I have a fish in front of me</a>
+		<a href='/havefish.html' class='c1'>I've seen a fish</a>
+	</body>
+</html>

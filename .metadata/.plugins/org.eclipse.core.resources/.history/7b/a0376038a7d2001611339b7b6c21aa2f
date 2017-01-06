@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WhatsThisFish</title>
+		<link rel='stylesheet' type='text/css' href='fish.css'>
+		<script src='fish.js' type='text/javascript'></script>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+	</head>
+	<body>
+		<h1>What's This Fish?</h1>
+		<img src='drivingthattrainhighoncocaine.svg'>
+	</body>
+</html>

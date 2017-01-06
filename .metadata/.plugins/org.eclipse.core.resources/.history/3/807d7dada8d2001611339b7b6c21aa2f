@@ -1,0 +1,22 @@
+html{
+	background: #ffffff;
+	color: #2c3e50;
+}
+h1 {
+	font-family: 'Alegreya', serif;
+}
+#logo {
+	width: 30px;
+	display: inline;
+}
+.c1 {
+	text-decoration: none;
+	color: #2c3e50;
+	padding: 5px;
+	margin: 5px;
+	border: 2px solid;
+	border-radius: 5px;
+}
+.c1:active {
+	
+}
