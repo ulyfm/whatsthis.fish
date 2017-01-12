@@ -1,0 +1,13 @@
+package us.noop.fish;
+
+import us.noop.fish.data.FishData;
+import us.noop.server.Main;
+
+public class Start {
+	public static void main(String... args){
+		Main m = new Main(new FishServerSetup());
+		Object o = FishData;
+		m.start();
+		
+	}
+}

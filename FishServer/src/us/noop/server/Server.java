@@ -19,7 +19,7 @@ import us.noop.server.response.ResponseManager;
 public class Server implements Runnable {
 	
 	private ServerSocket sock;
-	private Main instance;
+	public Main instance;
 	private ResponseManager r;
 	
 	/**

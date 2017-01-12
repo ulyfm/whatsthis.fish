@@ -1,0 +1,16 @@
+package us.noop.fish.data;
+
+public class FNode extends Node {
+	
+	private int id;
+	
+	public FNode(){
+		
+	}
+	
+	public int getId(){
+		return id;
+	}
+	
+	
+}

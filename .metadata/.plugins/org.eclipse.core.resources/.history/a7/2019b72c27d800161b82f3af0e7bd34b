@@ -1,0 +1,14 @@
+package us.noop.fish;
+
+import us.noop.server.Server;
+import us.noop.server.ServerSetup;
+import us.noop.server.pages.StaticFilePage;
+
+public class FishServerSetup implements ServerSetup {
+
+	@Override
+	public void setUpServer(Server s) {
+		s.addPage(new StaticFilePage(s);
+	}
+
+}

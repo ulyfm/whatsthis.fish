@@ -1,0 +1,8 @@
+package us.noop.fish.data;
+
+public class Fish {
+	private String commonName;
+	private String scientificName;
+	
+	
+}

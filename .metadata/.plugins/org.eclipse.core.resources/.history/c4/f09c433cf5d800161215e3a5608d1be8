@@ -1,0 +1,10 @@
+package us.noop.fish.data;
+
+public class Fish extends Node {
+	
+	private String commonName;
+	private String scientificName;
+	public String getName(){
+		return commonName;
+	}
+}

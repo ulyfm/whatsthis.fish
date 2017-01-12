@@ -1,13 +1,17 @@
 package us.noop.fish;
 
+import java.io.File;
+
 import us.noop.server.Server;
 import us.noop.server.ServerSetup;
+import us.noop.server.pages.StaticFilePage;
 
 public class FishServerSetup implements ServerSetup {
 
 	@Override
 	public void setUpServer(Server s) {
-		
+		s.addPage(new StaticFilePage(s.instance, "/index.html", new File("externalpages/index.html"), "text/html"));
+		s.addPage(new StaticFilePage(s.instance, "/", new File("externalpages/index.html"), "text/html"));
 	}
 
 }

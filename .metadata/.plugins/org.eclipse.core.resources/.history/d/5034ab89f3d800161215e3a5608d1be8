@@ -1,0 +1,12 @@
+package us.noop.fish.data;
+
+import java.util.ArrayList;
+
+public class FishData {
+	
+	private ArrayList<Fish> data;
+	
+	static {
+		
+	}
+}

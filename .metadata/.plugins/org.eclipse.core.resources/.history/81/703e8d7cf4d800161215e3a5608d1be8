@@ -1,0 +1,6 @@
+package us.noop.fish.data;
+
+public class FishNode {
+	String name;
+	FishNode[];
+}

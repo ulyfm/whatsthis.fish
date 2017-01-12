@@ -1,0 +1,9 @@
+package us.noop.fish.data;
+
+public class Fish extends Node {
+	private final String name;
+	
+	public String getName(){
+		return name;
+	}
+}

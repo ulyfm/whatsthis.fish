@@ -6,9 +6,7 @@ import java.io.IOException;
 import us.noop.server.config.Config;
 import us.noop.server.log.Level;
 import us.noop.server.log.Logger;
-import us.noop.server.plugin.PageClassLoader;
 import us.noop.server.response.ResponseManager;
-import us.noop.server.util.FileManager;
 
 /**
  * The main class of each instance of the application.
@@ -45,7 +43,7 @@ public class Main {
 		}
 		
 		ss.setUpServer(s);
-		PageClassLoader pcl = new PageClassLoader(this, s);
+		//PageClassLoader pcl = new PageClassLoader(this, s);
 		
 		s.run();
 	}

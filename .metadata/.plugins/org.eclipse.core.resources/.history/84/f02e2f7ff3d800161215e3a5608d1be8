@@ -1,0 +1,10 @@
+package us.noop.fish.data;
+
+public class FishData {
+	
+	private ArrayList<Fish> data;
+	
+	static {
+		
+	}
+}
